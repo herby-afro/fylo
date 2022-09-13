@@ -228,20 +228,20 @@ main {
   align-items: center;
 }
 
-.middle-image, .middle-text {
-  background-color: transparent;
-  text-align: center;
-  padding: 20px 20px;
-}
-
 .middle-image img{
   width: 90%;  
 }
-.middle-text p{
-    text-align: justify;
+.middle-text p{  
+    background-color: transparent;
+    text-align: left;
     align-items: center;
     padding-left: 20%;
     padding-right: 20%;
+}
+.middle-text a {
+  text-align: left;
+  text-decoration: solid;
+  color: blue;
 }
 
 .grid-container2 {
@@ -275,7 +275,7 @@ main {
 
 form {
   display: block;
-  padding-top: 25px;
+  padding-top: 5px;
 }
 
 textarea {
@@ -308,7 +308,6 @@ input[type=submit]:hover {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  height: 200px;
   border-radius: 10px;
   background-color: hsl(217, 28%, 15%);
   padding: 20px;
@@ -410,7 +409,7 @@ footer > img {
 
   .textos>h1{
     font-size: 40px;
-    font-weigth: 600;
+    font-Weight: 600;
     text-align: center;
     word-wrap: break-word;
     padding-bottom: 5px;
@@ -439,8 +438,8 @@ footer > img {
   .testimonials2 { grid-area: 2 / span 3; }
   .testimonials3 { grid-area: 3 / span 3; }
   .middle-text p { padding-left: 10%; padding-right: 10%; }
-  .container-form { height: 250px; }   
-  .col-25, .col-75, input[type=submit] { width: 100%; margin-top: 0; }
+  .container-form { height: 350px; }   
+  .col-25, .col-75, input[type=submit] { width: 100%; padding-top: 0px; padding-top: 0px; }
   .contenedor-footer { flex-direction: column; border: none; }
   .content-foo { margin-bottom: 20px; text-align: center; }
   .content-foo h4 { border: none; }
@@ -450,7 +449,7 @@ footer > img {
   .foo-links1 { grid-area: 3 / span 6 / 3 / 6; }
   .foo-links2 { grid-area: 4 / span 6 / 4 / 6; }
   .foo-social { grid-area: 5 / span 6 / 5 / 6; }
-
+  footer { padding-top: 0pt;}
 }
 
 @media only screen and (max-width: 380px){
